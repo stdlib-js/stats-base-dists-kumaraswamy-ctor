@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Kumaraswamy;
+})();
 })();
 </script>
 ```
@@ -289,6 +291,7 @@ y = kumaraswamy.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var kumaraswamy = new Kumaraswamy( 2.0, 4.0 );
 
@@ -304,6 +307,7 @@ var s2 = kumaraswamy.variance;
 var y = kumaraswamy.cdf( 0.8 );
 // returns ~0.983
 
+})();
 })();
 </script>
 </body>
