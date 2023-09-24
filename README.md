@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Kumaraswamy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-kumaraswamy-ctor/tags). For example,
+
+```javascript
 import Kumaraswamy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@v0.1.0-esm/index.mjs';
 ```
 
@@ -275,7 +280,7 @@ y = kumaraswamy.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Kumaraswamy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@v0.1.0-esm/index.mjs';
+import Kumaraswamy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@esm/index.mjs';
 
 var kumaraswamy = new Kumaraswamy( 2.0, 4.0 );
 
