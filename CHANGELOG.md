@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-30)
+## Unreleased (2026-02-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ad89c98`](https://github.com/stdlib-js/stdlib/commit/ad89c984e5b495cb695c61e1140d99067d8ebf1b) - **bench:** refractor to use string interpolation in `stats/base/dists/kumaraswamy` [(#10066)](https://github.com/stdlib-js/stdlib/pull/10066) _(by Shubham)_
 -   [`aaac825`](https://github.com/stdlib-js/stdlib/commit/aaac825c751f8ffc88d9d45e3e44f06bb36e297c) - **bench:** fix assertions _(by Athan Reines)_
 -   [`5e9a7cd`](https://github.com/stdlib-js/stdlib/commit/5e9a7cdd0bc9d07a331dfb72a74adc96b14b815c) - **bench:** update random value generation [(#9738)](https://github.com/stdlib-js/stdlib/pull/9738) _(by Harsh Yadav)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -26,11 +27,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Harsh Yadav
 -   Philipp Burckhardt
+-   Shubham
 
 </section>
 
