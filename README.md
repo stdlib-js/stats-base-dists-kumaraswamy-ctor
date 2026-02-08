@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Kumaraswamy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@deno/mod.js';
+import Kumaraswamy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@v0.2.3-deno/mod.js';
 ```
 
 #### Kumaraswamy( \[a, b] )
@@ -270,7 +270,7 @@ y = kumaraswamy.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Kumaraswamy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@deno/mod.js';
+import Kumaraswamy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-kumaraswamy-ctor@v0.2.3-deno/mod.js';
 
 var kumaraswamy = new Kumaraswamy( 2.0, 4.0 );
 
